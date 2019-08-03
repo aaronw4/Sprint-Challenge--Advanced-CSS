@@ -1,0 +1,87 @@
+.form {
+    margin-top: 5rem;
+
+    h3 {
+        text-align: center;
+    }
+    
+    p {
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+
+    form {
+        font-size: 1.5rem;
+        color: black;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media @mobile {
+            width: 95%;
+        }
+
+        fieldset {
+            border: 1px solid black;            
+            background-color: @wild-sand;
+            height: 400px;
+            padding: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        label {
+            display: inline-block;
+            float: left;
+            clear: left;
+            width: 30%;
+            text-align: right;
+            padding-bottom: 1.5rem;
+            padding-right: 1rem;
+
+            @media @mobile {
+                width: 40%;
+            }
+        }
+
+        .text {
+            display: inline-block;
+            float: left;
+            width: 50%;
+        }
+
+        .special {
+            height: 10rem;
+
+            @media @mobile {
+                height: 8rem;
+            }
+        }
+
+        .submitButton {
+            width: 10rem;
+            display: inline-block;
+            position: relative;
+            top: 250px;
+            left: -35%;
+
+            @media (max-width: 700px) {
+                left: -40%;
+            }
+
+            @media @mobile {
+                left: -55%;
+                top: 200px;
+            }
+        }
+
+        span {
+            @media @mobile {
+                display: block;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+
+    }
