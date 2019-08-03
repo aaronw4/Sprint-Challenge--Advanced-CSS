@@ -198,7 +198,7 @@ p {
 .home .intro p {
   padding: 0 15px;
 }
-.home .intro img {
+.home .intro .bannerImg img {
   height: auto;
   width: 100%;
   border-radius: 5px;
@@ -341,7 +341,7 @@ footer {
 }
 @media (max-width: 500px) {
   .form form {
-    width: 95%;
+    width: 72%;
   }
 }
 .form form fieldset {
@@ -362,13 +362,18 @@ footer {
 }
 @media (max-width: 500px) {
   .form form label {
-    width: 40%;
+    width: 45%;
   }
 }
 .form form .text {
   display: inline-block;
   float: left;
   width: 50%;
+}
+@media (max-width: 500px) {
+  .form form .text {
+    width: 46%;
+  }
 }
 .form form .special {
   height: 10rem;
@@ -393,7 +398,7 @@ footer {
 @media (max-width: 500px) {
   .form form .submitButton {
     left: -55%;
-    top: 200px;
+    top: 220px;
   }
 }
 @media (max-width: 500px) {
