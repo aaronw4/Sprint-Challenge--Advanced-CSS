@@ -126,6 +126,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+#button {
+  text-decoration: none;
+  flex-basis: 8.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #454A59;
+}
 * {
   box-sizing: border-box;
 }
@@ -159,6 +166,29 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.nav {
+  background-color: #F6F6F6;
+}
+.companyName {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.companyName h2 {
+  font-size: 4rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.buttons .button {
+  text-decoration: none;
+  flex-basis: 8.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #454A59;
 }
 .home .intro h2 {
   padding: 15px;
