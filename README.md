@@ -34,13 +34,53 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+In an adaptive website, different designs are created by the use of media queries.
+There could be different designs for mobiles, tablets, and desktops.
+Sizes for each design would be measured in a fixed unit such as pixels.
+A fully responsive website is almost the same thing, except it uses relative units like percentages or rem.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that you design your webpage to be seen on mobile devices first.
+After that is completed, you then adjust your web design for larger screens.
+Desktop first starts with designing websites for desktop computers first and then adjust for smaller screens.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The font size of 62.5% gives us a medium text size of 10 pixels.
+The unit rem would be multiples of that base font size.
+Therefore, 2rem would be equivalent to 20 pixels on a screen set to medium size fonts.
+The percentage allows the font to change size.
+People with problems seeing small print can increase the font size by adjusting their display.
+This makes a web page more accessible to more people.
+If font size was defined by pixels, the size of the print would never change size making it unreadable for some people.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a way to write the same amount of code with less typing.
+It allows you to use variables which you can use throughout your CSS.
+For example, you can say that color1 is #454A59.
+Now whenever you want to use that color you just type @color1 instead of the hex code.
+You can also set a variable to a string such as a media query.
+Both these allow you to change color a media query screen size by simply changing the variable.
+This is a lot easier than going line by line thru the code making the changes.
+You can also define a set of conditions such as padding, margin, font, and color all in one variable called a mixin.
+When you call a mixin in your CSS, it uses all the conditions that are defined in it.
+There is also nesting which allows you to simply write the CSS inside the brackets of a parent tag.
+Without it, you have to write out all of the tags to change the item that you are trying to design.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like setting variables.
+When I was changing colors on my portforlio webpage, I had to do it by going line by line through the code.
+It would have been so much easier if a variable for color had been set in a Less file.
+Nesting is also a favorite of mine, especially how it makes media queries require less typing.
+
+I dont have any trouble with any of the concepts, but I do not yet see how a mixin can be helpful.
+On all the projects we have done so far, it really hasnt saved me any time.
+I understand the concept that with longer code this can be helpful, but I just cant think of an example where that would be the case.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
